@@ -6,6 +6,8 @@ usage() {
   exit 1
 }
 
+#get domain from the string and hint usage
+
 while getopts "d:" opt; 
 do
   case ${opt} in
